@@ -1,7 +1,7 @@
 ## 🚀 Sobre mim
 | Autora   | Descricao |
 | :------------------- | :----------------- |
-|  | Oie, sou Thaysa, estudante de Sistemas de Informacao, comunicadora social e especialista em Direitos Humanos, concluinte da turma Todas Em Tech Backend On18 da {Reprograma}. Vivo em Recife, sou mae de um menino chamado Gabo, adoro aprender coisas novas e no momento estou aprendendo a surfar e migrando minha carreira da area de comunicacao para a tecnologia. |
+|![Thaysa Zooby](https://github.com/thaysazooby/projeto-final/blob/main/assets/thaysazooby.png)  | Oie, sou Thaysa, estudante de Sistemas de Informacao, comunicadora social e especialista em Direitos Humanos, concluinte da turma Todas Em Tech Backend On18 da {Reprograma}. Vivo em Recife, sou mae de um menino chamado Gabo, adoro aprender coisas novas e no momento estou aprendendo a surfar e migrando minha carreira da area de comunicacao para a tecnologia. |
 
 # PROJETO: LANTANA
 
@@ -130,3 +130,7 @@ Inicie o servidor
 
 ### Clientes
 {"nome", "cpf", "endereco": {"cep", "rua", "numero", "estado", "cidade", "bairro"}, "descricaoDoCaso"}
+
+## Contato
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thaysazooby/)
