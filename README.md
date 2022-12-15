@@ -1,5 +1,7 @@
 ## 🚀 Sobre mim
-Oie, sou Thaysa, estudante de Sistemas de Informacao, comunicadora social e especialista em Direitos Humanos, concluinte da turma Todas Em Tech Backend On18 da {Reprograma}. Vivo em Recife, sou mae de um menino chamado Gabo, adoro aprender coisas novas e no momento estou aprendendo a surfar e migrando minha carreira da area de comunicacao para a tecnologia.
+| Autora   | Descricao |
+| :------------------- | :----------------- |
+|  | Oie, sou Thaysa, estudante de Sistemas de Informacao, comunicadora social e especialista em Direitos Humanos, concluinte da turma Todas Em Tech Backend On18 da {Reprograma}. Vivo em Recife, sou mae de um menino chamado Gabo, adoro aprender coisas novas e no momento estou aprendendo a surfar e migrando minha carreira da area de comunicacao para a tecnologia. |
 
 # PROJETO: LANTANA
 
@@ -52,3 +54,79 @@ A planta arbustiva Lantana camara, conhecida popularmente como lantana, camará 
 ├── 📄vercel.json
 ```
 
+## Documentação da API
+
+### ROTAS:
+
+```
+/consultoras
+```
+
+| HTTP   | Rota       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `GET` | `/buscar` | Retorna todas as consultoras cadastradas|
+| `GET` | `/:id` | Retorna consultora por id|
+| `POST` | `/cadastrar` | Cadastra nova consultora |
+| `PATCH` | `/:id` | Realiza alteracoes na consultora por id |
+| `DELETE` | `/:id` | Apaga consultora por id |
+
+
+```
+/clientes
+```
+
+| HTTP   | Rota       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `GET` | `/buscar` | Retorna todas as clientes cadastradas|
+| `GET` | `/:id` | Retorna clienet por id|
+| `POST` | `/cadastrar` | Cadastra nova cliente |
+| `PATCH` | `/:id` | Realiza alteracoes na cliente por id |
+| `DELETE` | `/:id` | Apaga cliente por id |
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/thaysazooby/projeto-final
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd projeto-final
+```
+
+Instale as dependências
+
+```bash
+NPM
+npm init -y
+
+Express | Cors
+npm i express cors
+
+Nodemon
+npm i -D nodemon
+
+Mongoose (banco de dados)
+npm i mongoose
+
+Dotenv (variavel de ambiente)
+npm i dotenv
+```
+
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+## Schemas
+
+### Consultoras
+{"nome", "cpf", "oab", "especialidade", "endereco": {"cep", "rua", "numero", "estado", "cidade", "bairro"}, "disponibilidadeSemanal", "horario"}
+
+### Clientes
+{"nome", "cpf", "endereco": {"cep", "rua", "numero", "estado", "cidade", "bairro"}, "descricaoDoCaso"}
