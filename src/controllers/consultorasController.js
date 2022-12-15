@@ -45,12 +45,12 @@ const cadastrarConsultora = async (req, res) => {
     }
 
     const buscarCpf = await ConsultoraSchema.find({ cpf });
-    if (buscarCpf.lenght !== 0) {
-      return res.status(401).json({ message: "Verificar dados informados!" });
+    if (buscarCpf.lenght === 0) {
+      return res.status(401).json({ message: "Verificar dados!" });
     }
 
     const buscarOab = await ConsultoraSchema.find({ oab });
-    if (buscarOab.lenght !== 0) {
+    if (buscarOab.lenght === 0) {
       return res.status(401).json({ message: "Verificar dados informados!" });
     }
 

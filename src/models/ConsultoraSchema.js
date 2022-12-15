@@ -6,7 +6,7 @@ const consultoraSchema = new mongoose.Schema({
     require: true,
   },
   cpf: {
-    type: Number,
+    type: String,
     required: true,
   },
   oab: {

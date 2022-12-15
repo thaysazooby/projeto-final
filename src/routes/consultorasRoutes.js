@@ -6,7 +6,7 @@ const controllerConsultoras = require("../controllers/consultorasController");
 router.get("/buscar", controllerConsultoras.buscarConsultoraPorId);
 router.get("/:id", controllerConsultoras.buscarConsultoraPorId);
 
-router.post("/cadastrarConsultora", controllerConsultoras.cadastrarConsultora);
+router.post("/cadastrar", controllerConsultoras.cadastrarConsultora);
 
 router.patch("/:id", controllerConsultoras.alterarConsultora);
 
